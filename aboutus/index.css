@@ -1,0 +1,86 @@
+.object{
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+	display: table;
+}
+.one{
+	background-image: url('../img/about-us.jpg');
+	background-attachment: fixed;
+	height: 50vw;
+  	width: 100%;
+  	overflow-x: hidden;
+  	overflow-y: scroll;
+}
+
+@font-face {
+  font-family: Permanent Marker;
+  src: url(../fonts/PermanentMarker-Regular.ttf);
+}
+@font-face {
+  font-family: Gloria Hallelujah;
+  src: url(../fonts/GloriaHallelujah-Regular.ttf);
+}
+@font-face {
+  font-family: Pacifico;
+  src: url(../fonts/Pacifico-Regular.ttf);
+}
+
+.s2{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 4vh;
+	text-align: center;
+	padding: 10vw;
+	color: white;
+}
+.s3, .s3 b{
+ color: white;
+ font-size: 2vw;
+ font-family: 'Gloria Hallelujah', cursive;
+ padding:5vw;
+}
+
+.team{
+	font-family: 'Pacifico', cursive;
+	font-size: 3vw;
+	color: gray;
+	padding: 5vw;
+	text-align: center;
+	font-weight: 900;
+}
+
+.teampic {
+	padding: 5vw;
+	text-align: center;
+}
+.teampic img {
+	border-radius: 50%;
+	max-width: 200px;
+	width: 20vw;
+	height: auto; 
+}
+.teampic p {
+	text-align: center;
+}
+.office p {
+	font-size: 3vw;
+	color: black;
+	padding: 5vw;
+	text-align: center;
+}
+.office2 p {
+	padding: 1vw;
+	text-align: center;
+}
+.office2{
+	text-align: center;
+}
+.mymap{
+	max-width: 50vw;
+	height: auto;
+	overflow: hidden;
+
+}

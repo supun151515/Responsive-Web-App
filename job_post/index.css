@@ -1,0 +1,151 @@
+.textpadding {
+  margin-left: auto;
+    margin-right: auto;
+ 
+}
+.textpadding td {
+    padding: 5px;
+}
+input{ 
+  width:100%;
+  padding: 5px;
+  border:1px solid black;
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.center {
+  text-align: center;
+}
+.h1 {
+  font-size: 2vw;
+  font-weight: 900;
+}
+.emp_register {
+  width: 100%;
+  height: auto;
+
+}
+.mycenter {
+  text-align: center;
+  font-size: 2vw;
+  padding-right: 40px;
+}
+.mycenter p {
+  text-align: center;
+  padding: 1vh;
+  font-size: 1.5vw;
+}
+.p1{
+  font-size: 2vw;
+  font-weight: 900;
+}
+.p2{
+  font-size: 0.5vw;
+}
+.mycenter1 {
+  text-align: center;
+  display: block;
+}
+.mycenter a {
+  font-size: 1vw;
+}
+.mytext {
+  font-size: 2vw;
+  padding:10px;
+  text-align: center;
+}
+
+
+
+.myButton {
+  box-shadow:inset 0px 1px 0px 0px #fbafe3;
+  background:linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+  background-color:#ff5bb0;
+  border-radius:6px;
+  border:1px solid #ee1eb5;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size: 10px;
+  font-weight:bold;
+  padding:3px 6px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #c70067;
+}
+.myButton:hover {
+  background:linear-gradient(to bottom, #ef027d 5%, #ff5bb0 100%);
+  background-color:#ef027d;
+}
+
+.myButton2 {
+  box-shadow:inset 0px 1px 0px 0px #f5978e;
+  background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+  background-color:#f24537;
+  border-radius:6px;
+  border:1px solid #d02718;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:10px;
+  font-weight:bold;
+  padding:3px 6px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #810e05;
+}
+.myButton2:hover {
+  background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+  background-color:#c62d1f;
+}
+
+
+.jobsdiv {
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  min-height: 50px;
+  overflow: hidden;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #ccc!important;
+  margin: 0 auto;
+  cursor:pointer;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+.jobtitle{
+  font-weight: 900;
+}
+.jobcat{
+  float: left;
+}
+.detail {
+  float: left;
+  display: none;
+}
+@media screen and (min-width: 858px){
+.jobsdiv {
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  height: auto;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #ccc!important;
+  margin: 0 auto;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+.jobtitle{
+  font-weight: 900;
+}
+.jobcat{
+  float: left;
+}
+
+}

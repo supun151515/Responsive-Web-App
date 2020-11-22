@@ -1,0 +1,17 @@
+.header-privacy {
+  font-size: 3vw;
+  padding: 5vw;
+}
+.pele p{
+  padding-left: 2vw;
+}
+
+.pele ol {
+  list-style-type: decimal;
+  padding: 5vw;
+}
+.pele ol li {
+  list-style-type: decimal;
+  display: list-item;
+  padding: 0.5vw;
+}

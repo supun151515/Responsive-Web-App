@@ -1,0 +1,43 @@
+.textpadding {
+	margin-left: auto;
+    margin-right: auto;
+ 
+}
+.textpadding td {
+    padding: 5px;
+}
+input{ 
+  width:100%;
+  padding: 5px;
+  border:1px solid black;
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.center {
+	text-align: center;
+}
+.h1 {
+	font-size: 2vw;
+	font-weight: 900;
+}
+.emp_register {
+  width: 100%;
+  height: auto;
+
+}
+.mycenter {
+  text-align: center;
+  font-size: 2vw;
+  padding-right: 40px;
+}
+.mycenter1 {
+  text-align: center;
+  display: block;
+}
+.mycenter a {
+  font-size: 2vw;
+}
+.mytext {
+  font-size: 1vw;
+  padding:10px;
+}

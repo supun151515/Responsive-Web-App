@@ -1,0 +1,281 @@
+#lightSlider img {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.c1 {
+    font-size: large;
+}
+
+.blocks {
+    text-align: center;
+    font-weight: 800;
+}
+
+.home1 {
+	width: 100%;
+	height: 20%;
+	max-height: 400px;
+}
+
+.backimage{
+	display: flex;
+    align-items: center;
+    background-image: url('../img/employer.jpg');
+    width:100%;
+    height:400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 0.5;
+}
+
+.searchinputs {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 3px;
+  background-color: #8ebf42
+}
+.myButton {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-weight:bold;
+	padding:6px 4px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.secondElement {
+    width:100%;
+    height:auto;
+    padding-top: 3vw;
+    justify-content: center;
+}
+.ourHeader {
+	font-size: 3vw;
+	color: #737373;
+	text-align: center;
+	padding-top: 8vh;
+}
+.ourHeader2 {
+	font-size: 2vw;
+	color: #737373;
+	text-align: center;
+}
+.comp{
+	filter: grayscale(100%);
+    display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+    align-items: center;
+    width:100%;
+    height:100px;
+    max-width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 1;
+    padding-top: 50px;
+}
+.comp2{
+	filter: grayscale(100%);
+    display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+    align-items: center;
+    width:100%;
+    height:20vh;
+    max-width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 1;
+}
+.comp:hover, .comp2:hover{
+	filter: grayscale(0%);
+}
+
+
+
+.object{
+	height: auto;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+	display: table;
+}
+.one{
+	background-image: url('../img/coast.jpg');
+	background-attachment: fixed;
+	height: 200px;
+  	width: 100%;
+  	overflow-x: hidden;
+  	overflow-y: scroll;
+}
+.two{
+	background-image: url('../img/employer2.jpg');
+	background-attachment: fixed;
+	height: 200px;
+  	width: 100%;
+  	overflow-x: hidden;
+  	overflow-y: scroll;
+}
+
+
+.s2 {
+	color:white;
+	text-align: right;
+	font-weight: 900;
+	padding-top: 10vw;
+	padding-right: 50px;
+	font-size: 2vw;
+}
+.s3 {
+	color:white;
+	text-align: right;
+	font-size: 1.5vw;
+	padding: 50px;
+	width: 50%;
+	float: right;
+}
+
+.ss2 {
+	color: #FFFFFF;
+	text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+	text-align: left;
+	font-weight: 900;
+	padding-top: 10vw;
+	padding-left: 50px;
+	font-size: 2vw;
+}
+.ss3 {
+	color: #000000;
+	text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+	text-align: left;
+	font-size: 1.5vw;
+	padding: 50px;
+	width: 50%;
+	float: left;
+}
+
+.myButton2 {
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:2vw;
+	font-weight:bold;
+	padding:5px 5px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+	text-align: center;
+}
+.myButton2:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+
+.padding-bottom{
+	padding-bottom: 100px;
+}
+
+table.paleBlueRows {
+  font-family: "Times New Roman", Times, serif;
+  border: 1px solid #FFFFFF;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+table.paleBlueRows td, table.paleBlueRows th {
+  border: 1px solid #FFFFFF;
+  padding: 3px 2px;
+}
+table.paleBlueRows tbody td {
+  font-size: 13px;
+}
+table.paleBlueRows tbody > tr:nth-child(even) {
+  background: lightblue;
+}
+table.paleBlueRows tbody > tr:nth-child(odd) {
+  background: lightgreen;
+}
+table.paleBlueRows thead {
+  background: #0B6FA4;
+  border-bottom: 5px solid #FFFFFF;
+}
+table.paleBlueRows thead th {
+  font-size: 17px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #FFFFFF;
+}
+table.paleBlueRows thead th:first-child {
+  border-left: none;
+}
+
+table.paleBlueRows tfoot td {
+  font-size: 14px;
+}
+
+.myButton3 {
+	box-shadow:inset 0px 1px 0px 0px #e184f3;
+	background:linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
+	background-color:#c123de;
+	border-radius:6px;
+	border:1px solid #a511c0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:2vw;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9b14b3;
+}
+.myButton3:hover {
+	background:linear-gradient(to bottom, #a20dbd 5%, #c123de 100%);
+	background-color:#a20dbd;
+}
+.myButton3:active {
+	position:relative;
+	top:1px;
+}
+.ourHeader3 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+

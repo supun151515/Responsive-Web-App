@@ -1,0 +1,60 @@
+.feedback {
+
+}
+
+.object{
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+	display: table;
+}
+.one{
+	background-image: url('../img/feedback.png');
+	background-attachment: fixed;
+	height: 200px;
+  	width: 100%;
+  	overflow-x: hidden;
+  	overflow-y: scroll;
+}
+.s2 {
+	font-size: 3vw;
+	text-align: center;
+	font-weight: 900;
+	padding: 50px;
+	text-shadow: 2px 2px yellow;
+}
+.s3 {
+	color: white;
+	font-size: 2vw;
+	padding:50px;
+	background-color: blue;
+	opacity: 0.5;
+	border-radius: 25px;
+}
+.textpadding td {
+    padding: 5px;
+}
+.textpadding {
+	margin-left: auto;
+    margin-right: auto;
+ 
+}
+.sendData {
+	.button1 {padding: 10px 24px;}
+}
+.feedbackend{
+	font-size: 1vw;
+	color: gray;
+	padding-top: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+input{ 
+  width:100%;
+  padding: 5px;
+  border:1px solid black;
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}

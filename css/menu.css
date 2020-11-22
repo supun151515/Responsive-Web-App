@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: montserrat;
+}
+
+nav {
+    background: rgb(153,153,208);
+    background: linear-gradient(180deg, rgba(153,153,208,1) 0%, rgba(255,255,255,1) 84%);
+    height: 80px;
+    width: 100%
+
+}
+
+label.logo {
+    color: red;
+    font-size: 1vw;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    display: inline-block;
+    overflow: hidden;
+}
+.responsive_img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  padding:20px 20px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20ox;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 1vw;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 7px 13px;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+nav li a.active, nav li a:hover {
+    background-color: #cad69a;
+    transition: .5s;
+    color: green;
+}
+@media screen and (min-width: 858px){
+    * {
+        font-size: 1vw;
+    }
+    label.logo {
+        font-size: 30px;
+        padding-left: 10px;
+    }
+    nav ul li a {
+        font-size: 1vw;
+
+    }
+
+
+}
+
+
+
+@media (max-width: 858px){
+    * {
+       font-size: 2vw;
+    }
+    .checkbtn {
+        display: block;
+        color: gray;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #1d1d1f;
+        top: 80px;
+        left: -1000px;
+        text-align: center;
+        transition: all .5s;
+        z-index: 1000;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 3vw;
+        color: white;
+    }
+    nav li a.active, nav li a:hover {
+    background-color: #d9bef7;
+    color: black;
+    transition: .5s;
+}
+    #check:checked ~  ul {
+        left: 0px;
+    }
+}
+
+.social {
+    float: right;
+}
+.footer {
+    background-color: #7a7872;
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    bottom: 0;
+    position: relative;
+}
+.footer1 {
+    text-align: left;
+    color: white;
+    padding-top: 1vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
+}
